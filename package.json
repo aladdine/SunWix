@@ -1,0 +1,17 @@
+{
+  "name": "sunwix",
+  "version": "1.0.0",
+  "description": "Wix for solar developers ",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "mongoose": "4.9.3",
+    "rest-api-boilerplate": "1.0.4"
+  },
+  "author": "Alaeddine Mokri <alaeddinemokri@gmail.com>",
+  "license": "MIT"
+}
