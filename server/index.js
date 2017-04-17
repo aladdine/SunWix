@@ -12,6 +12,7 @@
 	var users = require("./routes/users");
 	var datasets = require("./routes/datasets");
 	var reviews = require("./routes/datasets");
+	var libraries = require("./routes/libraries");
 
 	app.use(
 		bodyParser.urlencoded({
@@ -41,6 +42,7 @@
 	app.use("/api/users", users);
 	app.use("/api/datasets", datasets);
 	app.use("/api/reviews", reviews);
+	app.use("/api/libraries", libraries);
 
 	// Make API endpoints accessible via port 3000
 	app.listen("3000", function(){

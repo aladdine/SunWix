@@ -1,0 +1,72 @@
+<div class="container header center">
+  <h1>SunWix Libraries</h1>
+  <h2>Upload, Explore and Review Libraries</h2>
+</div>
+
+<div class="container">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#browse" aria-controls="browse" role="tab" data-toggle="tab">Browse</a></li>
+    <li role="presentation"><a href="#add" aria-controls="add" role="tab" data-toggle="tab">Add</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane container active" id="browse">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Library Information:</h2>
+            <form>
+              <div class="form-group">
+                <label for="library-name" class="control-label">Library Name:</label>
+                <input type="text" class="form-control" id="library-name">
+              </div>
+              <div class="form-group">
+                <label for="library-website" class="control-label">Library Website:</label>
+                <input type="text" class="form-control" id="library-website">
+              </div>
+              <div class="form-group">
+                <label for="library-cdn" class="control-label">Library CDN:</label>
+                <input type="text" class="form-control" id="library-cdn">
+              </div>
+              <div class="form-group">
+                <label for="library-repo" class="control-label">Repo:</label>
+                <input type="text" class="form-control" id="library-repo">
+              </div>
+              <div class="form-group">
+                <label for="library-description" class="control-label">Description:</label>
+                <textarea class="form-control" id="library-description"></textarea>
+              </div>
+            </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+          <h2>Submitted By:</h2>
+            <form>
+              <div class="form-group">
+                <label for="added-by" class="control-label">Your Email:</label>
+                <input type="text" class="form-control" id="added-by">
+              </div>
+              <div class="form-group">
+                <label for="added-by" class="control-label">Your Full Name:</label>
+                <input type="text" class="form-control" id="added-by">
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane container" id="add">
+      <div>
+        Container Add
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  $('a[role="tab"]').click(function (e) {
+    e.preventDefault()
+  })
+</script>

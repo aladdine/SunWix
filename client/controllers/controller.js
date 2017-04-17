@@ -1,10 +1,9 @@
 var mainApp = angular.module("mainApp");
 
-
-$('#myTabs').click(){
-	console.log(this["href"])
-
-} // Select tab by name
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 
 mainApp.controller("MainController",["$scope",function($scope){
 

@@ -17,7 +17,7 @@
 			required: true,
 			type: String
 		},
-		dataset_url: {
+		url: {
 			required: true,
 			type: String
 		}

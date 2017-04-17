@@ -9,15 +9,23 @@ footer {
 }
 
 .logo {
-	width: 90px;
-	border-radius: 10px;
+	margin-top: -10px;
+	width: 40px;
+	border-radius: 2px;
 	border: 2px yellow solid;
-	background-color:  #141414;
+	background-color:  #333333;
+	padding: 4px;
+}
+
+.navbar {
+	background-color: #333333;
 }
 
 .nav-button {
-	margin-left: 20px;
+	margin-left: 0px;
+	border-radius: 0px;
 }
+
 
 .center {
 	text-align: center;

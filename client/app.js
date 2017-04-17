@@ -4,29 +4,32 @@ mainApp.config(function($routeProvider){//defining routes
 	console.log("yay..");
 	$routeProvider.when("/",{
 		controller: 'MainController',
-		templateUrl: './main.html'
+		templateUrl: './views/main.html'
 	}).when("/apis",{
 		controller: 'MainController',
-		templateUrl: './apis.html'
+		templateUrl: './views/apis.html'
 	}).when("/widgets",{
 		controller: 'MainController',
-		templateUrl: './widgets.html'
+		templateUrl: './views/widgets.html'
 	}).when("/datasets",{
 		controller: 'MainController',
-		templateUrl: './datasets.html'
+		templateUrl: './views/datasets.html'
+	}).when("/libraries",{
+		controller: 'MainController',
+		templateUrl: './views/libraries.html'
 	}).when("/explore",{
 		controller: 'MainController',
-		templateUrl: './explore.html'
+		templateUrl: './views/explore.html'
 	}).when("/upload",{
 		controller: 'MainController',
-		templateUrl: './upload.html'
+		templateUrl: './views/upload.html'
 	})
 	.when("/demo",{
 		controller: 'MainController',
-		templateUrl: './demo.html'
+		templateUrl: './views/demo.html'
 	})
 	.otherwise({
 		controller: 'MainController',
-		templateUrl: './main.html'
+		templateUrl: './views/main.html'
 	})
 });
