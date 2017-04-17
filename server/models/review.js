@@ -20,7 +20,13 @@
 		review_content: {
 			required: true,
 			type: String
-		}
+		},
+		lastEdited: {
+
+		},
+		addedOn: {
+			
+		} 
 	});
 
 	var review = module.exports = mongoose.model("review", review_schema);

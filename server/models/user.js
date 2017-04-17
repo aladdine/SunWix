@@ -20,7 +20,13 @@
 		affiliation: {
 			required: true,
 			type: String
-		}
+		},
+		lastEdited: {
+
+		},
+		addedOn: {
+			
+		} 
 	});
 
 	var user = module.exports = mongoose.model("user", user_schema);

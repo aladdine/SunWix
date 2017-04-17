@@ -20,7 +20,13 @@
 		url: {
 			required: true,
 			type: String
-		}
+		},
+		lastEdited: {
+
+		},
+		addedOn: {
+			
+		} 
 	});
 
 	var dataset = module.exports = mongoose.model("dataset", dataset_schema);

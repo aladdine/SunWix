@@ -26,7 +26,13 @@
 		},
 		repo: {
 			type: String	
-		}
+		},
+		lastEdited: {
+
+		},
+		addedOn: {
+			
+		} 
 	});
 
 	var library = module.exports = mongoose.model("library", library_schema);

@@ -24,7 +24,13 @@
 		documentation_url: {
 			required: true,
 			type: String
-		}
+		},
+		lastEdited: {
+
+		},
+		addedOn: {
+			
+		} 
 	});
 
 	var api = module.exports = mongoose.model("api", api_schema);

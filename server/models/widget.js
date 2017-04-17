@@ -24,7 +24,13 @@
 		documentation_url: {
 			required: true,
 			type: String
-		}
+		},
+		lastEdited: {
+
+		},
+		addedOn: {
+			
+		} 
 	});
 
 	var widget = module.exports = mongoose.model("widget", widget_schema);
